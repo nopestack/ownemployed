@@ -10,6 +10,8 @@ const menuItems = [
     { label: 'Learn', url: '/learn' },
     { label: 'Community', url: '/community' },
     { label: 'Account', url: '/members/deborah' },
+    { label: 'Get Inspired', url: '/projects/marketingBiz' },
+    { label: 'Login/Register', url: '/auth', isAuth: true },
 ]
 
 const PageLayout = ({ children }) => (
