@@ -19,7 +19,7 @@ const Button = ({
                 backgroundColor: 'primary',
                 borderRadius: '4px',
                 boxSizing: 'border-box',
-                padding: '6 8 6 8px',
+                padding: '6px 8px 6px 8px',
                 '&:hover': {
                     backgroundColor: 'primaryHover',
                     cursor: 'pointer',
