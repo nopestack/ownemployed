@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from 'rebass'
+import { Button as RebassButton } from 'rebass'
 
 function sizeReturn(size: string | undefined) {
     let width, height
@@ -33,7 +33,7 @@ function colorTypes(type: string | undefined) {
     return { color: color, hoverColor: hoverColor }
 }
 
-const ButtonOE = ({
+const Button = ({
     label,
     size,
     type,
@@ -53,7 +53,7 @@ const ButtonOE = ({
         hoverColor: '#16579c',
     }
     return (
-        <Button
+        <RebassButton
             onClick={onClick}
             sx={{
                 backgroundColor: color,
@@ -67,8 +67,8 @@ const ButtonOE = ({
             }}
         >
             {label}
-        </Button>
+        </RebassButton>
     )
 }
 
-export default ButtonOE
+export default Button
